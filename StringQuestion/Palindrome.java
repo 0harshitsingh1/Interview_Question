@@ -3,9 +3,10 @@ package StringQuestion;
 class CheckPalindrome{
     boolean isPalindrome(String str){
         str = str.trim();
-        String rev = "";
+        
 
         // Using two Pointer approach (It needs extra memory "rev")
+        // int rev = 0;
         // for(int i=str.length()-1; i>=0; i--){
         //     rev = rev + str.charAt(i);
         // }
