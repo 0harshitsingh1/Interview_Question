@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class  CountFrequency {
     static void countFrequency(int[] nums){
-        int count = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for(int i=0; i<nums.length; i++){

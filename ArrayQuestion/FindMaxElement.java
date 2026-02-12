@@ -1,7 +1,5 @@
 package ArrayQuestion;
 
-import java.util.Arrays;
-
 public class FindMaxElement {
 
     public int Max (int[] arr) {
