@@ -19,9 +19,8 @@ public class FirstUniqueCharacterInAString {
         return -1;
     }
     public static void main(String[] args) {
-        // String s = "leetcode";
+        // String s = "leetcode"; 
         String s = "loveleetcode";
-
         FirstUniqueCharacterInAString fucs = new FirstUniqueCharacterInAString();
         System.out.println(fucs.firstUniqChar(s));
     }
