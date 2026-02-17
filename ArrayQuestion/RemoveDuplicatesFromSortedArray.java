@@ -1,19 +1,34 @@
 package ArrayQuestion;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class  RemoveDuplicatesFromSortedArray {
     int removeDuplicates(int[] nums){
-        if(nums.length == 0){
-            return 0;
-        }
+        // if(nums.length == 0){
+        //     return 0;
+        // }
 
-        int i=0;
-        for(int j=0; j<nums.length; j++){
-            if(nums[j] != nums[i]){
-                i++;
-                nums[i] = nums[j];
-            }
+        // int i=0;
+        // for(int j=0; j<nums.length; j++){
+        //     if(nums[j] != nums[i]){
+        //         i++;
+        //         nums[i] = nums[j];
+        //     }
+        // }
+        // return i+1;
+
+        Set<Integer> st = new HashSet<>();
+
+        for(int i = 0; i < nums.length; i++){
+            st.add(nums[i]); 
         }
-        return i+1;
+        
+        int index = 0;
+        for (int num : st) {
+            nums[index++] = num;
+        }
+        return st.size();
     }
 
 

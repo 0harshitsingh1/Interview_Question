@@ -11,3 +11,5 @@ public class AddNumber {
         }
     }
 }
+
+byte a = 10; // 8 bit storage 
