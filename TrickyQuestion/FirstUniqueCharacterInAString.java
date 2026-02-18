@@ -1,4 +1,4 @@
-package StringQuestion;
+package TrickyQuestion;
 
 import java.util.HashMap;
 
